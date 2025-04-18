@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <title>한진용 이력서</title>
+</head>
+
+<body>
+
+  <table>
+    <tr>
+      <td rowspan="4">
+        <img src="역곡사진관_증명사진_2020_11_13.jpg" alt="증명사진" width="105" height="140">
+      </td>
+      <td>
+        <h1>한진용</h1>
+      </td>
+    </tr>
+    <tr>
+      <td>서버/백엔드 개발자 | 010-6893-7787 | 학번: 2502110649 | <a href="mailto:hjn5018@gmail.com">hjn5018@gmail.com</a></td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://bit.ly/46ybdP6" target="_blank">블로그</a>
+      </td>
+    </tr>
+    <tr>
+      <td>프로젝트의 완성을 최우선으로 생각하고,
+        팀원 모두가 역할을 가지며 소통하는 프로젝트를 지향합니다.
+      </td>
+    </tr>
+  </table>
+
+  <h2>경력 사항</h2>
+  <table border="1" width="100%">
+    <colgroup>
+      <col width="30%">
+      <col width="70%">
+    </colgroup>
+    <tr>
+      <td>2021 - 2023</td>
+      <td>맥도날드 팀리더</td>
+    </tr>
+  </table>
+
+  <h2>프로젝트</h2>
+
+  <table border="1" width="100%">
+    <colgroup>
+      <col width="30%">
+      <col width="70%">
+    </colgroup>
+    <tr>
+      <td rowspan="5">
+        <strong>플레이리스트 공유 사이트</strong><br>
+        2026.03 ~ 2026.09 (6개월)<br>
+        여러 플랫폼의 플레이리스트를 한 곳에서 듣자!<br>
+        <a href="https://portfolio.example.com" target="_blank">서비스 페이지</a><br>
+        <a href="https://github.com/portfolio" target="_blank">GitHub</a><br>
+        <a href="https://www.youtube.com/watch?v=9Wq4A1oKK8s" target="_blank">시연 영상</a><br>
+        <a href="https://bit.ly/46ybdP6" target="_blank">블로그</a>
+      </td>
+      <td><strong>Youtube, Melon, Spotify, Flo 재생목록 가져오기</strong><br>각 사이트의 Api를 이용하거나 scraping을 통하여 재생목록을 가져옵니다.</td>
+    </tr>
+    <tr>
+      <td><strong>SEO 및 오픈그래프 태그 설정</strong><br>검색 최적화를 위한 메타 태그와 오픈그래프를 적용했습니다.</td>
+    </tr>
+    <tr>
+      <td><strong>유저들을 위한 게시판 및 컬럼</strong><br>
+      개개인의 플레이리스트를 더 구체적으로 표현할 수 잇는 게시판과 전문적인 컬럼을 위한 페이지 구현
+      </td>
+    </tr>
+    <tr>
+      <td><strong>AI 기반 멜로디, 가사 생성</strong><br>
+      DAW 접근이 어려운 유저를 위해, 간단한 멜로디와 가사를 제공하여 음악에 더욱 쉬운 접근성을 제공한다.
+      </td>
+    </tr>
+    <tr>
+      <td><strong>국내, 국외 페스티벌 수집/정리 및 제공</strong><br>
+      각지의 음악 페스티벌을 재즈/락/팝 등 여러 갈래로 분류하여 제공한다.
+      </td>
+    </tr>
+  </table>
+  
+  <br>
+  
+  <table border="1" width="100%">
+    <colgroup>
+      <col width="30%">
+      <col width="70%">
+    </colgroup>
+    <tr>
+      <td rowspan="6">
+        <strong>sparta-games</strong><br>
+        2024.05 ~ 2024.06 (1개월)<br>
+        플레이 및 업로드가 가능한 unity 게임 웹페이지 (Python, DRF, JavaScript)<br>
+        <a href="https://sparta-games.net/" target="_blank">서비스 페이지</a><br>
+        <a href="https://www.youtube.com/watch?v=9Wq4A1oKK8s" target="_blank">시연 영상</a><br>
+        <a href="https://github.com/hjn5018/sparta-games" target="_blank">GitHub</a><br>
+        <a href="https://bit.ly/46ybdP6" target="_blank">블로그</a>
+      </td>
+      <td><strong>관리자 게임 등록 자동화</strong><br>게임검증과 등록에 수반하는 반복 수작업에 맞춰 업무 자동화의 필요성을 느꼈습니다.
+        자동화 API를 작성하여 이를 해결하고자 했습니다.
+        boto3를 통해 S3 객체에 접근하고, io, zipfile을 이용하여 내부 경로를 변경했습니다.
+        (파일 검증은 VirusTotal API의 상업적 제한, 횟수 제한으로 수동 검증)</td>
+    </tr>
+    <tr>
+      <td><strong>EC2 배포 시 게임 실행불가 개선</strong><br>같은 현상에 대한 해결 사례를 찾아볼 수 없었습니다.
+        Nginx의 error.log, access.log를 대조하여 상세한 오류를 파악했습니다.
+        이를 통해 sites-available의 location경로 오류임을 인지, root 경로를 추가할 수 있었습니다.</td>
+    </tr>
+    <tr>
+      <td><strong>S3 도입</strong><br>EC2에서 게임이 차지하는 비용을 절감하기 위해 스토리지를 도입했습니다.
+        AWS Freetier를 통해 EC2, RDS를 적용한 이후였으므로, 관리의 용이성을 위해 S3를 적용했으며,
+        access_key와 bucket_name의 노출을 막기 위해 config.py를 통해 중요 키를 관리했습니다.
+      </td>
+    </tr>
+    <tr>
+      <td><strong>검색</strong><br>
+        사이트 이용 시 기본적인 검색기능을 추가했습니다.
+        qurey_param를 통해 검색 항목을 선별하고, ORM의 filter와 model Q함수를 통해 각 테이블을 참조했습니다.
+      </td>
+    </tr>
+    <tr>
+      <td><strong>유저 피드백 개선</strong><br>
+        출시 1일 전, 수정 난이도가 높은 인게임 요소(지뢰찾기 확대,축소 / 사운드)를 배제했습니다.
+        icon 및 필수항목에 hover:side-popup 적용, *(필수항목 표기)를 더하여 접근성을 높였습니다.
+        회원가입 시 View에서 작성 한 유효성 반려사유 Response를 통해 가입 불가 사유를 자세히 안내했습니다.
+      </td>
+    </tr>
+    <tr>
+      <td><strong>유저 테스트</strong><br>
+        '페이지 이용 시 좋았던 점'을 묻는 응답(참여 인원: 10명)에서
+        게임 업로드 및 플레이 60%로 프로젝트의 핵심 기능이 유의미하게 서비스됨을 확인하였고,
+        '페이지 이용 시 아쉬웠던 점'을 묻는 응답에서
+        페이지 구성 및 디자인 40%, 게임 업로드 및 플레이 20%로 앞으로의 개선 방향을 가늠했습니다.
+      </td>
+    </tr>
+  </table>
+
+  <h2>학력</h2>
+  <table border="1" width="100%">
+    <colgroup>
+      <col width="30%">
+      <col width="70%">
+    </colgroup>
+    <tr>
+      <td>재학 기간</td>
+      <td>2025 - 2027</td>
+    </tr>
+    <tr>
+      <td>학교</td>
+      <td>폴리텍대학 인천캠퍼스</td>
+    </tr>
+    <tr>
+      <td>전공</td>
+      <td>AI융합소프트웨어</td>
+    </tr>
+  </table>
+
+  <br>
+
+  <table border="1" width="100%">
+    <colgroup>
+      <col width="30%">
+      <col width="70%">
+    </colgroup>
+    <tr>
+      <td>재학 기간</td>
+      <td>2014 - 2015</td>
+    </tr>
+    <tr>
+      <td>학교</td>
+      <td>명지대학교</td>
+    </tr>
+    <tr>
+      <td>전공</td>
+      <td>수학과</td>
+    </tr>
+  </table>
+
+  <h2>자격증 및 수료</h2>
+  <table border="1" width="100%">
+    <colgroup>
+      <col width="30%">
+      <col width="70%">
+    </colgroup>
+    <tr>
+      <td>자격증</td>
+      <td>정보처리산업기사 (2026.03)</td>
+    </tr>
+    <tr>
+      <td>자격증</td>
+      <td>SQLD (2026.04)</td>
+    </tr>
+    <tr>
+      <td>TOEIC</td>
+      <td>750</td>
+    </tr>
+    <tr>
+      <td>수료 과정</td>
+      <td>스파르타코딩클럽 (2024.02 ~ 2024.06)</td>
+    </tr>
+  </table>
+
+</body>
+
+</html>
